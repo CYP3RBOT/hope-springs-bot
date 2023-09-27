@@ -226,6 +226,14 @@ async function clockOutSubcommand(interaction) {
 async function onTheClockSubcommand(interaction) {
   const onTheClockCounselors = await getOTC();
 
+  if (onTheClockCounselors.length === 0) {
+    await interaction.editReply({
+      content: "There are no clocked in counselors!",
+      ephemeral: true,
+    });
+    return;
+  }
+
   let counselorStrings = [];
   for (const c of onTheClockCounselors) {
     const counselor = await interaction.guild.members.fetch(c.userId);

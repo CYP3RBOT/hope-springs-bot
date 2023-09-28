@@ -20,8 +20,8 @@ module.exports = {
       .setDescription(newMessage)
       .setTimestamp()
       .setFooter({
-        text: interaction.user.id,
-        iconURL: interaction.user.displayAvatarURL({ extension: "jpg" }),
+        text: interaction.user.username,
+        iconURL: interaction.user.displayAvatarURL(),
       });
 
     await interaction.editReply({ embeds: [responseEmbed] });

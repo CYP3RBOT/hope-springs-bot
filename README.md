@@ -1,4 +1,5 @@
-![HOPE SPRINGS COUNSELING](https://github.com/CYP3RBOT/hope-springs-bot/blob/master/hsc.png?raw=true)
+[![HOPE SPRINGS COUNSELING](https://github.com/CYP3RBOT/hope-springs-bot/blob/master/hsc.png?raw=true)
+](https://github.com/CYP3RBOT/hope-springs-bot/blob/master/assets/hsc.png)
 
 # Hope Springs Discord Bot
 

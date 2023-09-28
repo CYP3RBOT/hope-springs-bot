@@ -1,3 +1,5 @@
+![HOPE SPRINGS COUNSELING](https://github.com/CYP3RBOT/hope-springs-bot/blob/master/hsc.png?raw=true)
+
 # Hope Springs Discord Bot
 
 A Discord bot built by to help run the Hope Springs discord server.

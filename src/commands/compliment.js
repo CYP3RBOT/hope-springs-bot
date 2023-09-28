@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 
-const compliments = require("../compliments.json");
+const compliments = require("../../data/compliments.json");
 
 function getRandomCompliment(arr) {
   const randomIndex = Math.floor(Math.random() * arr.length);

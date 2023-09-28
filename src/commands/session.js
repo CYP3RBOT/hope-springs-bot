@@ -8,10 +8,9 @@ const {
   StringSelectMenuOptionBuilder,
   ActionRowBuilder,
 } = require("discord.js");
+const fs = require("fs");
 
 async function sendSessionLog(interaction, sessionChannel) {
-  const fs = require("fs");
-
   // Get all messages in the channel
   sessionChannel.messages
     .fetch({ limit: 100 })
